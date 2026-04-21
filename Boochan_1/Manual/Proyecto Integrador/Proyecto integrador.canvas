@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"d4a28467088ee0d2","type":"file","file":"Proyecto Integrador/Fases/Fase 1 PIKACHU (Aprovisionamiento, Particionado y Red Estática).md","x":-302,"y":-879,"width":400,"height":400},
+		{"id":"5c443c2d4456b254","type":"file","file":"Proyecto Integrador/Fases/Fase 2 LINK (Gestión Remota e Híbrida de Administración (SOR + SR)).md","x":-5,"y":-355,"width":400,"height":400},
+		{"id":"556eba632ce82c2c","type":"file","file":"Proyecto Integrador/Fases/Fase 3 MARIO (Servidores de Contenido y Transferencia Local (SR + SI)).md","x":-274,"y":174,"width":400,"height":400},
+		{"id":"3914b581ee631285","type":"file","file":"Proyecto Integrador/Fases/Fase 4 PORTAL Versión A (Publicación WAN y Configuración Perimetral (SR)).md","x":-1056,"y":178,"width":400,"height":400},
+		{"id":"ad740a2be9ae95b2","type":"file","file":"Proyecto Integrador/Fases/Fase 4 PORTAL Versión B (Infraestructura Cloudlare Tunnel (Zero Trust) (SR)).md","x":478,"y":182,"width":400,"height":400},
+		{"id":"933189482c036675","type":"file","file":"Proyecto Integrador/Fases/Fase 5 DITTO (Identidad Digital y Automatización DDNS (SOR + SR)).md","x":-1056,"y":800,"width":400,"height":400},
+		{"id":"238ff91a4d5f667d","type":"file","file":"Proyecto Integrador/Fases/Fase 6 BATMAN (Hardening y Blindaje de Seguridad (SI)).md","x":-274,"y":720,"width":400,"height":400},
+		{"id":"24124573d75c8758","type":"file","file":"Proyecto Integrador/Fases/Fase 8 ONIX (Escalabilidad de Almacenamiento (SOR)).md","x":-1452,"y":-346,"width":400,"height":400},
+		{"id":"c634c1313352f3f3","type":"file","file":"Proyecto Integrador/Fases/Fase 9 DARK SOULS (Auditoría de Seguridad y Pentesting (SI)).md","x":-1158,"y":-1020,"width":400,"height":400},
+		{"id":"f5ee63030bf0dd78","type":"file","file":"Proyecto Integrador/Fases/Fase 7 PHOENIX (Auditoría de Seguridad y Pentesting (SI)).md","x":-1456,"y":1320,"width":400,"height":400},
+		{"id":"097b74f765bb8495","type":"file","file":"Proyecto Integrador/Imagenes/boochan1.jpg","x":-520,"y":-355,"width":300,"height":400}
+	],
+	"edges":[
+		{"id":"537cf1c75a0efbd3","fromNode":"097b74f765bb8495","fromSide":"top","toNode":"d4a28467088ee0d2","toSide":"bottom"},
+		{"id":"ec9a252898a1c3b0","fromNode":"d4a28467088ee0d2","fromSide":"bottom","toNode":"5c443c2d4456b254","toSide":"top"},
+		{"id":"b4d666de3c5873b2","fromNode":"5c443c2d4456b254","fromSide":"bottom","toNode":"556eba632ce82c2c","toSide":"top"},
+		{"id":"0624a82d688b8efd","fromNode":"556eba632ce82c2c","fromSide":"left","toNode":"3914b581ee631285","toSide":"right"},
+		{"id":"215d42890ed1cd75","fromNode":"556eba632ce82c2c","fromSide":"right","toNode":"ad740a2be9ae95b2","toSide":"left"},
+		{"id":"932517203d524610","fromNode":"3914b581ee631285","fromSide":"bottom","toNode":"933189482c036675","toSide":"top"},
+		{"id":"9c7662092a811402","fromNode":"933189482c036675","fromSide":"right","toNode":"238ff91a4d5f667d","toSide":"left"},
+		{"id":"893917eca90a7a0d","fromNode":"ad740a2be9ae95b2","fromSide":"bottom","toNode":"238ff91a4d5f667d","toSide":"right"},
+		{"id":"aa50b827a6ca854f","fromNode":"24124573d75c8758","fromSide":"top","toNode":"c634c1313352f3f3","toSide":"bottom"},
+		{"id":"6464df752cee3b7e","fromNode":"c634c1313352f3f3","fromSide":"right","toNode":"097b74f765bb8495","toSide":"left"},
+		{"id":"834847b49b48e2b4","fromNode":"238ff91a4d5f667d","fromSide":"bottom","toNode":"f5ee63030bf0dd78","toSide":"right"},
+		{"id":"9c028dca6fbea358","fromNode":"f5ee63030bf0dd78","fromSide":"top","toNode":"24124573d75c8758","toSide":"bottom"}
+	]
+}

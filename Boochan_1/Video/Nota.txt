@@ -1,0 +1,1 @@
+Realizaremos la Fase 4B ya que es mas simple y incluye la fase 5. Aparte la Fase 4B sirve para todo el mundo y es mas segura ya que no abrimos puertos en el router. En cambio la 4A sirve para la gente que tiene una ip publica y no tiene CGNAT.
